@@ -1,17 +1,23 @@
 section {
-    width: 600px;
-    height: 600px;
+    margin-right: 18px;
+    margin-top: 10px;
+    height: 610px;
+    width: 568px;
     text-align: center;
-    border: 15px solid black;
+    border: 15px solid #000000;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: lightblue;
     /* Margin property */
-    
+    margin-top: 45px;
+    margin-bottom: 40;
+    margin-right: 20px;
+    margin-left: 18px;
     /* Padding property */
-    
+    padding: 20px;
     /* Border property */
-    border: 1px solid darkblue;
+    border: 10px solid darkblue;
 }
+

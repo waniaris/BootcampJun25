@@ -1,19 +1,38 @@
+/* The primary color should be applied to headings, buttons, and links.
+- The secondary color should be applied to backgrounds, borders, or other secondary elements. */
+
+:root {
+    --primary-color: #0041d9;
+    --secondary-color: #ffdddd;
+    --tertiary-color: #000000;
+    --light-color: #e1e4d5;
+    --nav-padding--: 15px;
+    --homepage-img-width--: 20%;
+}
+
+.dark-mode {
+    --primary-color: #1f2124;
+    --secondary-color: #ffdddd;
+    --tertiary-color: #000000;
+    --light-color: #f5f7f9; 
+}
+
 /* Basic Page Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     /* Hardcoded white */
-    color: #000000;
+    color: var(--tertiary-color);
     /* Hardcoded black */
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #d90000;
+    background-color: var(--primary-color);
     /* Hardcoded red */
-    padding: 15px;
+    padding: var(--nav-padding--);
     text-align: center;
 }
 
@@ -30,7 +49,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--secondary-color);
     /* Hardcoded white */
     font-weight: bold;
 }
@@ -38,9 +57,9 @@ nav ul li a {
 /* Header Section */
 header {
     text-align: center;
-    background-color: #d90000;
+    background-color: var(--primary-color);
     /* Hardcoded red */
-    color: #ffffff;
+    color: var(--secondary-color);
     /* Hardcoded white */
     padding: 40px 0;
 }
@@ -59,24 +78,24 @@ header h1 {
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     /* Hardcoded white */
 }
 
 img {
     max-height:fit-content;
-    width: 100%;
+    width: var(--homepage-img-width--);
     
 }
 
 .box {
     width: 40%;
     padding: 20px;
-    background-color: #fff3f3;
+    background-color: var(--light-color);
     /* Light red background */
-    border: 2px solid #d90000;
+    border: 2px solid var(--primary-color);
     /* Hardcoded red border */
-    color: #d90000;
+    color: var(--primary-color);
     /* Hardcoded red text */
     text-align: center;
 }
@@ -86,12 +105,12 @@ img {
 }
 
 .box p {
-    color: #000000;
+    color: var(--tertiary-color);
     /* Hardcoded black text */
 }
 
 a.option {
-    color: #d90000;
+    color: var(--primary-color);
     /* Hardcoded red */
     text-decoration: none;
     width: 50%;

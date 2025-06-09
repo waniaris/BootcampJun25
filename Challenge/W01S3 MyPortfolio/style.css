@@ -1,0 +1,43 @@
+* {
+    margin:5;
+    padding:2px;
+}
+
+h1, h2, h3 {
+    font-family: Verdana,sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#myname {
+    color:brown;
+    background-color: bisque;
+}
+
+.navtop:hover {
+    background-color: yellow;
+    font-size: 18px;
+}
+
+.navtop:hover {
+    background-color: yellow;
+    font-size: 18px;
+}
+
+.listproject:hover {
+    background-color: rgb(0, 255, 102);
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+}
+
+#btnSubmit {
+    background-color: #042eaa;
+    color: white;
+    padding: 8px;
+}
