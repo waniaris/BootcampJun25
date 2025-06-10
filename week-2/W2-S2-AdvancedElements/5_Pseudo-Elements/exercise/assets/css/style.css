@@ -60,13 +60,31 @@ button:hover {
 /* Pseudo-elements for Email and Phone Labels */
 /* Add ✉️ and 📞 icons before the labels */
 
+.email-label::before {
+    content: "✉️";
+}
 
-/* Styling the Terms and Conditions Link */
+.phone-label::before {
+    content: "📞";
+}
+
+/* Styling the Terms and Conditions Link 
+   - Removing the underline from the link.
+   - Changing the link color when hovered over.
+   - Changing the link color again once the link has been clicked (visited).*/
 .terms-link {
     color: #007bff;
     text-decoration: none;
     font-size: 14px;
 }
+
+.terms-link:hover {
+    color: red;
+}   
+
+.terms-link:visited {
+    color: green;
+}   
 
 /* Add hover and visited states for the link */
 /* ::before pseudo-element for <h1> */

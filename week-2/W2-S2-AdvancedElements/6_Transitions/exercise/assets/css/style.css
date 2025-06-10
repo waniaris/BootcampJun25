@@ -68,5 +68,28 @@ img {
     border: 2px solid black;
     /* Old styling */
    
+    transition: transform 0.5s;
+    
     /* Add New styling here */
 }
+
+@keyframes moveAndReturn {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    40% {
+        transform: translateX(calc(100vw - 100px)) rotate(720deg);
+    }
+    70% {
+        transform: translateX(calc(100vw - 100px)) rotate(720deg);
+        /* pause */
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+.product:hover {
+    animation: moveAndReturn 4s ease-in-out forwards;
+}
+

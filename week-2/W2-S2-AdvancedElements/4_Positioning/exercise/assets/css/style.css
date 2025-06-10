@@ -14,11 +14,13 @@ body {
 
 /* Navigation */
 .main-nav {
-    
+    position: fixed;
     top: 0;
+    width: 100%;
     background-color: #333;
     color: white;
     padding: 10px 0;
+    text-align: center;
 }
 
 .main-nav ul {
@@ -94,14 +96,17 @@ footer {
 /* Get in Touch (incorrect position) */
 .get-in-touch {
     /* TODO need to fix this to bottom and right */
-
-    /* Incorrect position */
+    position: fixed;
+    bottom: 0;
+    right: 0;   
     
 }
 
 .get-in-touch img {
     width: 150px;
     height: auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 /* TASK 1: Make the navigation sticky at the top */
