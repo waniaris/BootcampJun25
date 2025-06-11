@@ -1,0 +1,59 @@
+* {
+    margin:5;
+    padding:2px;
+}
+
+h1, h2, h3 {
+    font-family: Arial,sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#myname {
+    color:brown;
+    background-color: bisque;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.navtop {
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navtop ul li {
+    margin: 0 20px;
+}
+
+.navtop ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navtop:hover {
+    background-color: rgb(0, 115, 255);
+    font-size: 18px;
+}
+
+.listproject:hover {
+    background-color: rgb(0, 255, 102);
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+}
+
+#btnSubmit {
+    background-color: #042eaa;
+    color: white;
+    padding: 8px;
+}
