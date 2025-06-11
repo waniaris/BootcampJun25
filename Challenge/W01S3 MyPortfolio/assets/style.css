@@ -3,6 +3,17 @@
     padding:2px;
 }
 
+#hdr-welcome {
+    text-align: center;
+    font-size: 37px;
+}
+
+h1, h2, h3 {
+    border: 1px solid blue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
 h1, h2, h3 {
     font-family: Arial,sans-serif;
     font-weight: 800;
@@ -17,19 +28,22 @@ h3 {
     background-color: bisque;
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 
 .navtop {
+    position: fixed;
     top: 0;
+    left:0;
     width: 100%;
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 0px;
     text-align: center;
 }
 
 .navtop ul li {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .navtop ul li a {
@@ -50,6 +64,18 @@ h3 {
 
 li {
     display: inline;
+}
+
+.pjtbox{
+    display:flex;
+}
+
+.pjtbox {
+    background-color: #ebe2e2;
+    padding: 30px;
+    width: 96%;
+    text-align: center;
+    border: 1px solid #ccc;
 }
 
 #btnSubmit {
