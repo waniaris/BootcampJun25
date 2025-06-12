@@ -1,0 +1,96 @@
+* {
+    margin:5;
+    padding:2px;
+    scroll-padding: 40px;
+}
+
+#hdr-welcome {
+    text-align: center;
+    font-size: 37px;
+}
+
+h1, h2, h3 {
+    border: 1px solid blue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: Arial,sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#myname {
+    color:brown;
+    background-color: bisque;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.navtop {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+.navtop ul li {
+    margin: 0 10px;
+}
+
+.navtop ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navtop:hover {
+    background-color: rgb(0, 115, 255);
+    font-size: 18px;
+}
+
+.listproject:hover {
+    background-color: rgb(0, 255, 102);
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+}
+
+.pjtbox{
+    display:flex;
+}
+
+.pjtbox {
+    background-color: #ebe2e2;
+    padding: 30px;
+    width: 96%;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.project {
+    margin: 30px;
+}
+
+.mycontact:hover {
+    background-color: rgb(0, 255, 102);
+    font-size: 18px;
+}
+
+#btnSubmit {
+    background-color: #042eaa;
+    color: white;
+    padding: 8px;
+}

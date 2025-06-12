@@ -1,0 +1,91 @@
+<!--Challenge: Build Your Personal Portfolio Web Page-->
+
+<!--Task-->
+<!--Create a simple portfolio page that includes name, contact information (email), a brief bio, and a picture (with alt).-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wani Aris-My Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+</body>
+    <!-- Navigation -->
+    <nav class="navtop">
+        <ul>
+            <li><a href="#hdr-welcome">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1 id="hdr-welcome">Welcome to My portfolio Page</h1>
+        <p id="myname">Wani Aris</p>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About</h2>
+        <img src="waniaris.jpg" alt="My Photo" width="200" height="200">
+        <br>
+        <p id="briefbio">My Brief Bio: <br><br>I am currently working in the secondary education industry, working closely with the senior leadership and the pastoral team
+        to monitor, promote and maintain high levels of student attendance across the school as a means of ensuring safeguarding 
+        and high levels of student achievement and a commitment to inclusive education.
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a class="listproject" href="#pjt1">Sign in / sign out record</a></li>
+            <li><a class="listproject" href="#pjt2">Total Late Time</a></li> 
+        </ul>
+    </section>
+ 
+    <section class="pjtbox">
+        <div class="project" id="pjt1">
+            <h3>Sign in / sign out record</h3>
+            <img src="pjt1.jpg" alt="My Photo" width="400" height="200">
+            <p>This feature allows user to obtain the sign in or sign out record 
+                for a student based on the start date selected.</p>
+        </div>
+        <div class="project" id="pjt2">
+            <h3>Total Late Time</h3>
+            <img src="pjt2.jpg" alt="My Photo" width="300" height="120">
+            <p>This feature allows user to calculate the total late time 
+                for a student based on the date selected.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><a class="mycontact" href="mailto:waniaris@gmail.com">Email me</a></li>
+            <li><a class="mycontact" href="tel:07789943256">Call me</a></li>
+        </ul>
+        <p> or submit the form below to make an inquiry.</p>
+        <form action="submit.php" method="post">
+            <label for="username">Your Name:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="tel">Telephone:</label><br>
+            <input type="tel" id="tel" name="tel"><br><br>
+            <input type="submit" value="Submit" id="btnSubmit">
+        </form>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <p>Copyright ©2025 Wani Aris. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
