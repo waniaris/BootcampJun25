@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Amarante, Arial, sans-serif;
 }
 
 /* Main Content Styles */
@@ -28,13 +28,13 @@ section {
 }
 
 h2 {
-    font-family: Verdana, sans-serif;
+    font-family: Shadows into light, Verdana, sans-serif;
     color: #333333;
 }
 
 /* Paragraph Styles */
 p {
-    font-family: Arial, sans-serif;
+    font-family: Pacifico, Arial, sans-serif;
     color: #333333;
     margin-bottom: 15px;
 }

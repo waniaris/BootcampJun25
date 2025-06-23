@@ -54,6 +54,33 @@
     <!-- Autocomplete Input -->
     <p>Start typing a fruit: <input type="text" id="autocomplete" class="autocomplete"></p>
 
+    <h3>Accordion Widget</h3>
+    <div id="accordion">
+    <h3>Section 1</h3>
+    <div>
+    <p>Content for section 1.</p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+    <p>Content for section 2.</p>
+    </div>
+    </div>
+
+    <h3>Select a Date</h3>
+    <input type="text" id="datepicker2" />
+
+    <ul id="menu">
+  <li class="ui-widget-header"><div>Category 1</div></li>
+  <li><div>Option 1</div></li>
+  <li><div>Option 2</div></li>
+  <li><div>Option 3</div></li>
+  <li class="ui-widget-header"><div>Category 2</div></li>
+  <li><div>Option 4</div></li>
+  <li><div>Option 5</div></li>
+  <li><div>Option 6</div></li>
+</ul>
+
+
     <script>
         $(document).ready(function () {
             // Draggable widget
@@ -61,6 +88,12 @@
 
             // Datepicker widget
             $("#datepicker").datepicker();
+
+            // Initialize Accordion
+            $("#accordion").accordion();
+
+            // Initialize Datepicker
+            $("#datepicker2").datepicker();
 
             // Autocomplete widget
             var availableFruits = [
@@ -70,8 +103,18 @@
             $("#autocomplete").autocomplete({
                 source: availableFruits
             });
+
+        $( function() {
+            $( "#menu" ).menu({
+        items: "> :not(.ui-widget-header)"
+        });
+  } );
+
+
         });
     </script>
+
+    
 
 </body>
 
