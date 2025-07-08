@@ -4,18 +4,22 @@ function calculate(num1, num2, operation) {
     }
     switch (operation) {
         case "add":
-        return num1 + num2;
+            return num1 + num2;
+            break;
         case "subtract":
-        return num1 - num2;
+            return num1 - num2;
+            break;
         case "multiply":
-        return num1 * num2;
+            return num1 * num2;
+            break;
         case "divide":
-        if (num2 === 0) {
-            return "Error: Cannot divide by zero.";
-        }
-        return num1 / num2;
+            if (num2 === 0) {
+                return "Error: Cannot divide by zero.";
+            }
+            return num1 / num2;
+            break;
     default:
-        return "Unknown operation. Please use 'add', 'subtract', 'multiply', or 'divide'.";
+            return "Unknown operation. Please use 'add', 'subtract', 'multiply', or 'divide'.";
     }
 }
 

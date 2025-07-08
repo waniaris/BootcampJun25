@@ -8,10 +8,18 @@ var searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", onClickSearhButton);
 
 function onClickSearhButton() {
+  const term = searchTerm.value;
+
+  const newItem = '<div class="search-item"><span class="search-term">${term}</span>
+  <button class="remove-button">Remove</button></div>';
+  
+}
   // 4. use the value property of the searchInput to get the search term
   //TODO:
+
   // 5. select the searches div using document.getElementById
   //TODO:
+
   // 6. create a new li element using document.createElement
   //TODO:
   // 7. set the innerHTML of the new paragraph to the search term

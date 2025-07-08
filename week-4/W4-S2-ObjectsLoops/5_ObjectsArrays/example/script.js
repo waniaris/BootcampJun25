@@ -36,3 +36,4 @@ console.log(student3.name + " is the first student in the array.");
 for (var i = 0; i < students.length; i++) {
   console.log(students[i].name + " is " + students[i].age + " years old.");
 }
+

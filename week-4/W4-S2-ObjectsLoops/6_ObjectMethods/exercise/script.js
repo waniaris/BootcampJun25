@@ -27,15 +27,15 @@ console.log("Shifted fruit:", shiftedFruit); // "apple"
 // 6. Array.concat() - TODO: WHat does this method do? What is the output?
 let vegetables = ["carrot", "potato"];
 let food = fruits.concat(vegetables);
-console.log("After concat:", food); // ["mango", "banana", "carrot", "potato"]
+console.log("After concat:", food); // ["banana", "carrot", "potato"]
 
 // 7. Array.indexOf() - TODO: WHat does this method do? What is the output?
 let index = food.indexOf("banana");
-console.log("Index of banana:", index); // 1
+console.log("Index of banana:", index); // 0
 
 // 8. Array.includes() - TODO: WHat does this method do? What is the output?
 let hasMango = food.includes("mango");
-console.log("Array contains mango:", hasMango); // true
+console.log("Array contains mango:", hasMango); // false
 
 // 9. Array.filter() - Creates a new array with all elements that pass a test
 let longFoods = food.filter((item) => item.length > 5);
